@@ -3,7 +3,7 @@ document.getElementById('fareForm').addEventListener('submit', function(event) {
 
     const origin = document.getElementById('origin').value;
     const destination = document.getElementById('destination').value;
-    const apiKey = '您的 API 金鑰';
+    const apiKey = 'IzaSyA7ft96wew_X75zTN7zo72F6CdM6_1o_S8';
 
     const url = `https://routes.googleapis.com/directions/v2:computeRoutes?key=${apiKey}`;
 
